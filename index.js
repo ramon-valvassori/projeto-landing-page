@@ -7,7 +7,7 @@ const verificaValorInserido = () => {
     if(elementoNome !== "" && elementoEmail !== "" && elementoCelular !== ""){
         ///alert(`Formulário enviado com sucesso!`)
         
-        console.log(`Formulário enviado com sucesso`)
+        console.log(`Formulário enviado com sucesso ${elementoEmail}`)
     } else {
         //alert(`Favor preencher todos os campos.`)
         console.log(`Favor preencher todos os campos.`)

@@ -46,7 +46,7 @@ nav ul{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-size: 40px;
-    Inserifont-family: 'Lobster', cursive;;
+    font-family: 'Lobster', cursive;;
 }
 
 .bloco:nth-of-type(1) {
@@ -84,6 +84,7 @@ nav ul{
 
 #enviar {
     font-size: 30px;
+    
 }
 
 

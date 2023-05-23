@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    -cor-primeira: #405173;
+    -cor-segunda: #435C73;
+    -cor-terceira: #6D8C75;
+    -cor-quarta: #77A66A;
+    -cor-quinta: #AED98F;
+}
+
 header {
     background-color: rgb(54 78 105);
     /*height: 100px;*/
@@ -13,21 +21,39 @@ header {
 }
 
 img {
-    height: 150px;
-    width: 150px;
+    height: 300px;
+    width: 300px;
 }
 
 .safe {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
+    justify-content: space-around;
+    width: 120%;
+    text-align: center;
     
+}
+
+#adquira {
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 5px;
+    background-color: #405173;
+    height: 80px;
+    width: 300px;
+    margin: 20px;
+    font-size: 4vh;
+    font-family: 'Lobster', cursive;
+    color:#AED98F;
 }
 
 .seguros {
     margin-left: 12px;
     color: white;
+    font-size: 35px;
 
 }
 
@@ -38,6 +64,7 @@ nav ul{
     color: white;
     text-transform: uppercase;
     list-style: none;
+    font-size: 25px;
 }
 
 .bloco {
@@ -46,21 +73,29 @@ nav ul{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-size: 40px;
-    Inserifont-family: 'Lobster', cursive;;
+    
 }
 
 .bloco:nth-of-type(1) {
     background-image: url("img/couple-955926.jpg");
     margin: 0px 0px 40px 0px;
+    padding-right: 20px;
+    text-align: right;
+    justify-content: center;
 }
 
 .bloco:nth-of-type(2) {
     background-image: url("img/pexels-curtis-adams-15062125.jpg");
     margin: 0px 0px 40px 0px;
+    padding-right: 20px;
+    text-align: left;
+    justify-content: center;
 }
 
 .bloco:nth-of-type(3) {
     background-image: url("img/kwid_intense_021-1200x800.webp");
+    
+    
 }
 
 #bloco-2 {
@@ -79,11 +114,18 @@ nav ul{
 #bloco-4 {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 }
 
 #enviar {
     font-size: 30px;
+}
+
+.box {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    
+    
 }
 
 

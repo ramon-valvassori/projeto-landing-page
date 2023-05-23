@@ -17,12 +17,12 @@
   <header>
     <div class="safe">
       <img
-        src="img/e3fbf80af1cb11d81c395115104be6b3af8335d9c442d0330cfc3df6ce0ea423c26a96979275960ccd93e0670b4639b48ba9b0049a61c763d3e78bd5e0da1b0d2367157e9eb2dbafb742bfea13d64189e66c8ae61d733dad278f2fab3c584f9a0ae3c32d.avif"
+        src="img/logo.avif"
         alt="">
       <div class="seguros">
         <h1>4 Safe Seguros</h1>
 
-        <p>Seu seguro de vida e automóvel</p>
+        <p>Seu seguro de vida, casa e automóvel</p>
       </div>
       <nav>
         <ul>
@@ -39,20 +39,23 @@
       <article class="bloco" id="bloco-2">
         <!--  <img src="img/couple-955926.jpg" alt="">-->
         <h1>O que oferecemos?</h1>
-        <p>A 4 Safe Seguros oferece seguro de vida e de automóvel <br>
-          sem burocracia. Adquira um dos nossos seguros e já saia 
+        <p>A 4 Safe Seguros oferece seguro de vida, <br> casa e de automóvel 
+          sem burocracia.<br> Adquira um dos nossos seguros e <br>já saia 
           usando.
         </p>
+        <button id="adquira">Adquira já</button>
       </article>
       
       <article class="bloco" id="bloco-3">
         <!--  <img id="casa" src="img/casa_maria_carolina.jpg" alt="">-->
         <h1>Não espere algo acontecer</h1>
-        <p>Com a 4 Safe Seguros você sai com o seguro e cobertura
-          na mesma hora. 24 horas por dia. Você ainda ganha cobertura
-          de chaveiro, eletricista, encanador e pedreiro. Sem custos
-          adicionais.
+        <p>Com a 4 Safe Seguros você sai com o <br>
+          seguro e cobertura na mesma hora. 24 <br>
+          horas por dia. Você ainda leva serviços <br>
+          de chaveiro, eletricista, encanador <br>
+          e pedreiro. Sem custos adicionais.
         </p>
+        <button id="adquira">Adquira já</button>
       </article>
 
       <article class="bloco" id="bloco-4">
@@ -61,7 +64,33 @@
         <p>Nossos consultores já entrarão em contato.
           Faça tudo sem sair de casa.
         </p>
-        <form action="/pagina-processa-dados-do-form"></form>
+        <div class="box">
+          <form action="">
+            <fieldset>
+              <legend><b>Deixe aqui suas informações de contato</b></legend>
+              <br>
+              <div class="inputBox">
+                <input type="text" name="nome" id="nome" class="inputUser" required>
+                <label for="nome">Nome Completo</label>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="email" name="email" id="email" class="inputUser" required>
+                <label for="email">Email</label>
+              </div>
+              <br><br>
+              <div class="inputBox">
+                <input type="tel" name="celular" id="celular" class="inputUser" required>
+                <label for="celular">Celular</label>
+              </div>
+              <br><br>
+              <input type="submit" name="submit" id="submit">
+            </fieldset>
+          </form>
+        </div>
+
+
+        <!--<form action="/pagina-processa-dados-do-form"></form>
           <div>
               <label for="Nome">Nome:</label>
               <input type="text" id="nome" />
@@ -80,7 +109,7 @@
         <button onclick="verificaValorInserido()" id="enviar">Enviar</button>>
        
         </div>
-      </form>
+      </form>-->
       </article>
 
     </section>

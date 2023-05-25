@@ -50,6 +50,10 @@ img {
     color:#AED98F;
 }
 
+#adquira:hover {
+    background-color: #6D8C75;
+}
+
 .seguros {
     margin-left: 12px;
     color: white;
@@ -117,17 +121,76 @@ nav ul{
     align-items: center;
 }
 
-#enviar {
-    font-size: 30px;
-}
+
 
 .box {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 100px;
+    color: white;
     
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+    margin-top: 30px;
+       
+}
+
+fieldset {
+    border: 3px solid #405173;
+}
+
+legend {
+    border: 1px solid #405173;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    border-radius: 8px;
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 40px;
+    width: 95%;
     
 }
 
+.inputBox {
+    
+    
+    transition: .5px;
+}
 
+.inputUser:focus~.labelInput {
+    top: -20px;
+    font-size: 35px;
+}
 
+#submit {
+    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
+.labelInput{
+    color: #AED98F;
+}
+
+#instagram {
+    background-image: url(img/instagram_icon_125245.png) ;
+}
+ 
+#facebook {
+    background-image: url(img/facebook.png);
+}

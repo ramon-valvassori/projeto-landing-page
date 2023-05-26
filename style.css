@@ -187,10 +187,18 @@ legend {
     color: #AED98F;
 }
 
-#instagram {
-    background-image: url(img/instagram_icon_125245.png) ;
+#redessociais img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    
 }
- 
-#facebook {
-    background-image: url(img/facebook.png);
+
+nav#redessociais p {
+    color: white;
+    font-size: 30px;
+    
 }
+

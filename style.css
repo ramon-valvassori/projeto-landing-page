@@ -31,7 +31,7 @@ img {
     justify-content: space-around;
     width: 120%;
     text-align: center;
-    
+
 }
 
 #adquira {
@@ -47,7 +47,7 @@ img {
     margin: 20px;
     font-size: 4vh;
     font-family: 'Lobster', cursive;
-    color:#AED98F;
+    color: #AED98F;
 }
 
 #adquira:hover {
@@ -61,7 +61,7 @@ img {
 
 }
 
-nav ul{
+nav ul {
     display: flex;
     column-gap: 30px;
     margin-right: 12px;
@@ -77,7 +77,7 @@ nav ul{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     font-size: 40px;
-    
+
 }
 
 .bloco:nth-of-type(1) {
@@ -98,8 +98,8 @@ nav ul{
 
 .bloco:nth-of-type(3) {
     background-image: url("img/kwid_intense_021-1200x800.webp");
-    
-    
+
+
 }
 
 #bloco-2 {
@@ -125,13 +125,13 @@ nav ul{
 
 .box {
     color: white;
-    
+
     background-color: rgba(0, 0, 0, 0.8);
     padding: 15px;
     border-radius: 15px;
     width: 40%;
     margin-top: 30px;
-       
+
 }
 
 fieldset {
@@ -142,7 +142,7 @@ legend {
     border: 1px solid #405173;
     padding: 10px;
     text-align: center;
-    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
     border-radius: 8px;
 }
 
@@ -158,12 +158,12 @@ legend {
     color: white;
     font-size: 40px;
     width: 95%;
-    
+
 }
 
 .inputBox {
-    
-    
+
+
     transition: .5px;
 }
 
@@ -173,7 +173,7 @@ legend {
 }
 
 #submit {
-    background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+    background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
     width: 100%;
     border: none;
     padding: 15px;
@@ -183,7 +183,7 @@ legend {
     border-radius: 10px;
 }
 
-.labelInput{
+.labelInput {
     color: #AED98F;
 }
 
@@ -193,12 +193,33 @@ legend {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 nav#redessociais p {
     color: white;
     font-size: 30px;
-    
+
 }
 
+@media screen and (max-device-width : 480px) {
+    /* celulares */  
+    .seguros h1, p {
+        font-size: 50%;
+    }
+
+    #contato li {
+        font-size: 50%;
+    }
+
+}
+
+@media screen and (min-device-width : 481px) and (max-device-width : 800px) {
+    /* tablets */
+    .seguros h1, p {
+        font-size: 50%;
+    }
+    #contato li {
+        font-size: 50%;
+    }
+}
